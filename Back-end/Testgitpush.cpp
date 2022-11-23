@@ -1,3 +1,0 @@
-Ba
-
-CHihuahense
