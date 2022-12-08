@@ -33,9 +33,9 @@ token: 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
 <h2>ThingsToConsider</h2>
 
 - Do not write letters when asking for the move.  
-- In single player mode the player 1 always starts  the PC is the second one.  
+- In single player mode the player 1 always starts,  the PC is the second one.  
 - In multiplayer is the same process.  
- 
+- Enjoy it
  
  
 <h2>GameTest</h2>
