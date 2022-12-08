@@ -13,7 +13,6 @@ token: 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
 [GameTest](#GameTest)  
 [Thingstoconside](#ThingsToConsider)
 
-
 [Bonus and Problems](#Bonus_and_Problems)  
 <h2>Menu</h2>
  
