@@ -73,10 +73,10 @@ void imprimir2(){
 			}
 		}
 		if(i==3) {
-			cout<<"\t\t\tJugador 1";
+			cout<<"\x1B[33m"<<"\t\t\tJugador 1"<<"\x1B[0m";
 		} else {
 			if(i==1) {
-				cout<<"\t\t\tPuntos Jugador 1: "<<puntosJugador;
+				cout<<"\x1B[32m"<<"\t\t\tPuntos Jugador: "<<"\x1B[0m"<<puntosJugador;
 			}
 		}
 	}
@@ -127,10 +127,10 @@ void imprimir2(){
 			}
 		}
 		if(i==3) {
-			cout<<"\t\t\tJugador 2";
+			cout<<"\x1B[33m"<<"\t\t\tJugador 2"<<"\x1B[0m";
 		} else {
 			if(i==1) {
-				cout<<"\t\t\tPuntos Jugador 2: "<<puntosJugador2;
+				cout<<"\x1B[32m"<<"\t\t\tPuntos Jugador 2: "<<"\x1B[0m"<<puntosJugador2;
 			}
 		}
 	}
@@ -155,6 +155,7 @@ void imprimir() {
 				if(oponente[i][j]==2) {
 					cout<<"\x1B[31m"<<" X "<<"\x1B[0m";
 				} else {
+					
 					if(i%2==0){
 							if(j%2==0){
 	                    		cout<<"\x1B[34m"<<"|"<<"\x1B[0m";
@@ -178,15 +179,14 @@ void imprimir() {
 			                }
 			            }
 					
-					
 				}
 			}
 		}
 		if(i==3) {
-			cout<<"\t\t\tOPONENTE";
+			cout<<"\x1B[33m"<<"\t\t\tOPONENTE"<<"\x1B[0m";
 		} else {
 			if(i==1) {
-				cout<<"\t\t\tPuntos Oponente: "<<puntosOponente;
+				cout<<"\x1B[32m"<<"\t\t\tPuntos Oponente: "<<"\x1B[0m"<<puntosOponente;
 			}
 		}
 	}
@@ -236,10 +236,10 @@ void imprimir() {
 			}
 		}
 		if(i==3) {
-			cout<<"\t\t\tJugador 1";
+			cout<<"\x1B[33m"<<"\t\t\tJugador 1"<<"\x1B[0m";
 		} else {
 			if(i==1) {
-				cout<<"\t\t\tPuntos Jugador: "<<puntosJugador;
+				cout<<"\x1B[32m"<<"\t\t\tPuntos Jugador: "<<"\x1B[0m"<<puntosJugador;
 			}
 		}
 	}
@@ -342,11 +342,11 @@ void iniciar() {
 	for(k=1; k<=5; k++) {
 		imprimir();
 
-		i=1 +rand()%9;
-		j=1 +rand()%9;
+		i=(1 +rand()%8)*2;
+		j=(1 +rand()%8)*2-1;
 		while(oponente[i][j]==1) {
-			i=1+rand()%9;
-			j=1+rand()%9;
+			i=(1+rand()%8)*2;
+			j=(1+rand()%8)*2-1;
 
 		}
 		oponente[i][j]=1;
@@ -389,48 +389,38 @@ void gotoxy(int x, int y) {
 	SetConsoleCursorPosition(hcon, dwPos);
 }
 
-void portada() {
-	system("color 1");
-	char portada[20][80] = {
-		"                                                                             ",
-		"   aasaaaaaa         aas    aaasasaasaa  aaaaaaaaaaa  aaa        aaaaaaaaaa  ",
-		"   aas    aaa       aasaa       aas          aaa      aaa        aaa         ",
-		"   aas    aaa      aas aaa      aas          aaa      aaa        aaa         ",
-		"   aaaaaaaaa      aaa   aaa     aaa          aaa      aaa        aaaaaaaaa   ",
-		"   aaa    aaa    aaaaaaaaaaa    aaa          aaa      aaa        aaa         ",
-		"   aaa    aaa   aaa       aaa   aaa          aaa      aaa        aaa         ",
-		"   aaaaaaaaa   aaa         aaa  aaa          aaa      aaaaaaaaa  aaaaaaaaaa  ",
-		"                                                                             ",
-		"      ssssssssssss   sss       sss   ssssssssssssss     ssssssssssss         ",
-		"      ssssssssssss   sss       sss         sss          sss        ss        ",
-		"      sss            sss       sss         sss          sss         ss       ",
-		"      sss            sss       sss         sss          sss         ss       ",
-		"      ssssssssssss   sssssssssssss         sss          sss        ss        ",
-		"      ssssssssssss   sssssssssssss         sss          ssssssssssss         ",
-		"               sss   sss       sss         sss          sss                  ",
-		"               sss   sss       sss         sss          sss                  ",
-		"       sssssssssss   sss       sss         sss          sss                  ",
-		"       sssssssssss   sss       sss    sssssssssssss     sss                  ",
-		"                                                                             ",
-	};
-	for(int j=0; j<80; j++) {
-		for(int i=0; i<20; i++) {
-			gotoxy(j+5,i+5);
-			printf("%c",portada[i][j]);
-		}
-	}
+void portada1(){
 	
-	gotoxy(41,34);
-	cout<<"CREADOR Y DISENO: ISC03B";
-	gotoxy(41,28);
-	cout<<"CARGANDO";
-	for(int i=0; i<40; i++) {
-		gotoxy(i+25,30);
-		printf("%c",219);
-		Sleep(100);
-	}
-	getch();
+	char portada [100][100]={
+		
+        "\t  ¯¦¦¦¦¦¦¦¦¦_     _¦¦¦¦¦¦¦¦     ¦¦¦         ¦¦¦      _¦          _¦¦¦¦¦¦¦¦ ",
+        "\t    ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦ ¯¦¦¦¦¦¦¦¦¦_ ¯¦¦¦¦¦¦¦¦¦_ ¦¦¦         ¦¦¦    ¦¦¦ ",  
+        "\t    ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦    ¯¦¦¦¯¯¦¦    ¯¦¦¦¯¯¦¦ ¦¦¦         ¦¦¦    ¦¯  ",     
+        "\t   _¦¦¦___¦¦¯    ¦¦¦    ¦¦¦     ¦¦¦   ¯     ¦¦¦   ¯ ¦¦¦        _¦¦¦___     ",     
+        "\t  ¯¯¦¦¦¯¯¯¦¦_  ¯¦¦¦¦¦¦¦¦¦¦¦     ¦¦¦         ¦¦¦     ¦¦¦       ¯¯¦¦¦¯¯¯     ",     
+        "\t    ¦¦¦    ¦¦_   ¦¦¦    ¦¦¦     ¦¦¦         ¦¦¦     ¦¦¦         ¦¦¦    ¦_  ",     
+        "\t    ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦     ¦¦¦         ¦¦¦     ¦¦¦¦    _   ¦¦¦    ¦¦¦ ",     
+        "\t  _¦¦¦¦¦¦¦¦¦¯    ¦¦¦    ¦¯     _¦¦¦¦¯      _¦¦¦¦¯   ¦¦¦¦¦__¦¦   ¦¦¦¦¦¦¦¦¦¦ ",    
+        "\t                                                    ¯                      ",    
+        "\t               _¦¦¦¦¦¦¦¦    _¦    ¦_     _¦     _¦¦¦¦¦¦¦_                  ",     
+        "\t              ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦    ¦¦¦                  ",     
+        "\t              ¦¦¦    ¦¯    ¦¦¦    ¦¦¦   ¦¦¦¦   ¦¦¦    ¦¦¦                  ",     
+        "\t              ¦¦¦         _¦¦¦____¦¦¦__ ¦¦¦¦   ¦¦¦    ¦¦¦                  ",     
+        "\t            ¯¦¦¦¦¦¦¦¦¦¦¦ ¯¯¦¦¦¯¯¯¯¦¦¦¯  ¦¦¦¦ ¯¦¦¦¦¦¦¦¦¦¯                   ",     
+        "\t                     ¦¦¦   ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦                         ",     
+        "\t               _¦    ¦¦¦   ¦¦¦    ¦¦¦   ¦¦¦    ¦¦¦                         ",     
+        "\t             _¦¦¦¦¦¦¦¦¯    ¦¦¦    ¦¯    ¦¯    _¦¦¦¦¯                       ",};
 
+for(int j=0;j<80;j++){
+        for(int i=0;i<20;i++){
+            gotoxy(j+5,i+5);printf("%c",portada[i][j]);}}
+    gotoxy(36,30);cout<<"CREADOR Y DISENO: ISC03B";
+    gotoxy(41,28);cout<<"CARGANDO";
+    for(int i=0;i<40;i++){
+            gotoxy(i+25,30);printf("%c",219);
+            Sleep(100);
+            }
+            getch();
 }
 
 int main() {
@@ -439,14 +429,16 @@ int main() {
 	int res, auxiliar, auxiliar2,  probabilidadPC, destruidoOP=0, destruidoJU=0, ganador;
 	float dificultadPC=0.5;
 	
-	cout<<"\n\n\n\t*****************************************";
-	cout<<"\n\t| Option   |  Game mode                 |";
-	cout<<"\n\t|***************************************|";
-	cout<<"\n\t|    1     |  PLayer vs Computer        |";
-	cout<<"\n\t|    2     |  Player 1 vs Player 2      |";
-	cout<<"\n\t|    3     |  Exit                      |";
-	cout<<"\n\t*****************************************";
-	cout<<"\n\tOption: ";
+	
+	portada1();	
+	cout<<"\n\n\n\n\t\t*****************************************";
+	cout<<"\n\t\t| Option   |  Game mode                 |";
+	cout<<"\n\t\t|***************************************|";
+	cout<<"\n\t\t|    1     |  PLayer vs Computer        |";
+	cout<<"\n\t\t|    2     |  Player 1 vs Player 2      |";
+	cout<<"\n\t\t|    3     |  Exit                      |";
+	cout<<"\n\t\t*****************************************";
+	cout<<"\n\t\tOption: ";
 	cin>>res;
 	system("cls");
 
@@ -458,7 +450,6 @@ int main() {
 			wait(2);
 			cout<<"COMIENZA!!";
 			wait(1);
-			portada();
 
 
 			do {
@@ -500,6 +491,7 @@ int main() {
 					puntosJugador=puntosJugador +200;
 					cout<<"\x1B[32m"<<"Haz acertado!! \n"<<"\x1B[0m";
 				} else {
+					oponente[opcion1][opcion2]=3;
 					cout<<"\x1B[31m"<<"Haz fallado... \n"<<"\x1B[0m";
 				}
 				system("PAUSE");
@@ -548,6 +540,7 @@ int main() {
 					destruidoJU=destruidoJU+1;
 					puntosOponente=puntosOponente +200;
 				} else {
+					jugador[opcion1][opcion2]=3;
 					cout<<"\x1B[31m"<<"El oponente ha fallado... \n"<<"\x1B[0m";
 				}
 				if(destruidoJU==5) {
@@ -577,8 +570,7 @@ int main() {
 			wait(2);
 			cout<<"COMIENZA!!";
 			wait(1);
-			portada();
-			
+	
 			do {
 				time(&start);
 				system("cls");
@@ -618,6 +610,7 @@ int main() {
 					puntosJugador=puntosJugador +200;
 					cout<<"\x1B[32m"<<"Haz acertado!! \n"<<"\x1B[0m";
 				} else {
+					jugador2[opcion1][opcion2]=3;
 					cout<<"\x1B[31m"<<"Haz fallado... \n"<<"\x1B[0m";
 				}
 	
@@ -658,6 +651,7 @@ int main() {
 						puntosJugador2 =puntosJugador2 +200;
 						cout<<"\x1B[32m"<<"Haz acertado!! \n"<<"\x1B[0m";
 					} else {
+						jugador[opcion1][opcion2]=3;
 						cout<<"\x1B[31m"<<" Haz fallado... \n"<<"\x1B[0m";
 					}
 				}
