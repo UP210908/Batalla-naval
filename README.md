@@ -16,7 +16,7 @@ token: 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
  
  
  
-**In this repository the operation and logic of the project are explained, From the operation to play with a player to play with the AI, **
+**In this repository the operation and logic of the project are explained, From the operation to play with a player to play with the AI **
 
  
 
