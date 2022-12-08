@@ -11,7 +11,7 @@ token: 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
 
 [Flowchart](#Flowchart)  
 [GameTest](#GameTest)  
-[Consider This Things](#Things To Consider)
+[Consider This Things](#ThingsToConsider)
 
 [Bonus and Problems](#Bonus_and_Problems)  
 <h2>Menu</h2>
@@ -30,7 +30,7 @@ token: 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
 
  </div align="center">
 
-<h2>Things To Consider</h2>
+<h2>ThingsToConsider</h2>
 
 - Do not write letters when asking for the move.  
 - In single player mode the player 1 always starts  the PC is the second one.  
