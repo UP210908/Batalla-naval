@@ -24,7 +24,7 @@ token: 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
  
 
 <h2>Flowchart</h2>
- <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/flowchartdelship.png" height="720" width="1000">
+ <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/flowchartdelship.png" height="1024" width="768">
 
  
  
