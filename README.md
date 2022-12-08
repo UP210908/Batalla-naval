@@ -11,7 +11,7 @@ token: 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
 
 [Flowchart](#Flowchart)  
 [GameTest](#GameTest)  
-[Thingstoconside](#Consider)
+[Consider This Things](#Thingstoconsider)
 
 [Bonus and Problems](#Bonus_and_Problems)  
 <h2>Menu</h2>
