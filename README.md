@@ -6,7 +6,7 @@ token: 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
 <div align= "center">
 
 <h1> BATTLESHIP   (NAVAL BATTLE) </h1>
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/51z7QxFM2sL.png" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/51z7QxFM2sL.png" height="350" width="450">
 </div align="center">
 
 [Flowchart](#Flowchart)  
