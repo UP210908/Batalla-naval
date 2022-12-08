@@ -16,14 +16,13 @@ token: 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
  
  
  
-**In this repository I will be explaining the function, its form and the logic of the cat program**
+**In this repository the operation and logic of the project are explained, From the operation to play with a player to play with the AI, **
 
  
 
 <div align="center">
  
 
-**Click on the image for more details**
 <h2>Flowchart</h2>
  <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/Flowchart.png" height="250" width="250">
 
