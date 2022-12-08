@@ -27,10 +27,17 @@ token: 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
  <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/flowchartdelship.png" height="600" width="900">
 
  
- 
- 
 <h2>GameTest</h2>
 </div align="center">
+
+</div align="center">
+
+<h2>Things to consider</h2>
+
+- Do not write letters when asking for the move.  
+- In single player mode the player 1 always starts  the PC is the second one.  
+- In multiplayer is the same process.  
+
 
 1. First you choose which game mode will be played in this case we will choose player vs player
 
