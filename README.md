@@ -48,33 +48,33 @@ token: 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
 
 2. Player vs ai board interface is taught
 
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/Primero.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/Primero.jpg" height="450" width="450">
  
 3. Then the placement of the boats is done
 
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/segunds.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/segunds.jpg" height="450" width="450">
 
 4. The loading screen is shown
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/tercers.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/tercers.jpg" height="450" width="450">
  
 5. The interface for an attack is demonstrated
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/cuatros.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/cuatros.jpg" height="450" width="450">
  
 6. The fault interface is also demonstrated
  
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/qintos.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/qintos.jpg" height="450" width="450">
  
 7. player fail interface
  
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/sextos.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/sextos.jpg" height="450" width="450">
 
 8. enemy hits the target
 
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/septimos.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/septimos.jpg" height="450" width="450">
 
 9. sunken ship interface
 
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/octos.jpg" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/octos.jpg" height="450" width="450">
 
 
 [Menu](#Menu) 
