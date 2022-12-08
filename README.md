@@ -6,11 +6,13 @@ token: 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
 <div align= "center">
 
 <h1> BATTLESHIP   (NAVAL BATTLE) </h1>
-<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/51z7QxFM2sL.png" height="250" width="250">
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/51z7QxFM2sL.png" height="350" width="350">
 </div align="center">
 
 [Flowchart](#Flowchart)  
 [GameTest](#GameTest)  
+[Consider This Things](#ThingsToConsider)
+
 [Bonus and Problems](#Bonus_and_Problems)  
 <h2>Menu</h2>
  
@@ -24,42 +26,56 @@ token: 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
  
 
 <h2>Flowchart</h2>
- <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/Flowchart.png" height="250" width="250">
+ <img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/flowchartdelship.png" height="600" width="900">
 
- 
+ </div align="center">
+
+<h2>ThingsToConsider</h2>
+
+- Do not write letters when asking for the move.  
+- In single player mode the player 1 always starts,  the PC is the second one.  
+- In multiplayer is the same process.  
+- Enjoy it
  
  
 <h2>GameTest</h2>
 </div align="center">
 
-1. First you choose which game mode will be played in this case we will choose player vs player
 
 
-![image](https://user-images.githubusercontent.com/112887372/203224849-6c80fca2-bcad-4e8f-b409-b89afc21f947.png)
+1. First you choose which game mode will be played in this case we will choose player vs cpu
 
-2. Then he asks you to give a number on the board
 
-![image](https://user-images.githubusercontent.com/112887372/203225486-e0d7facc-8064-4e51-a227-034116faf06a.png)
- 
-3. On the drawn board you choose which position to take, with the marked numbers you indicate where
+2. Player vs ai board interface is taught
 
-![image](https://user-images.githubusercontent.com/112887372/203225875-1595906d-6368-443c-abea-e4edf498c791.png)
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/Primero.jpg" height="450" width="750">
+ 
+3. Then the placement of the boats is done
 
-4. <b>After choosing a number that in this case uses the number <b>4</b> the box is checked
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/segunds.jpg" height="450" width="750">
 
-![image](https://user-images.githubusercontent.com/112887372/203226037-099dd24f-e57f-4ce6-8b32-5a9ef2b29ce1.png)
+4. The loading screen is shown
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/tercers.jpg" height="450" width="750">
  
-5. In the same interface, he asks the second player to choose his move, in the same way choosing the number is the box that he marks
+5. The interface for an attack is demonstrated
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/cuatros.jpg" height="450" width="750">
  
-![image](https://user-images.githubusercontent.com/112887372/203227646-cd87ceea-21cd-4669-b378-8268e0f9c851.png)
+6. The fault interface is also demonstrated
  
-6. In the last one, if a line of one letter is formed, be it X or 0, it is the one that wins
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/qintos.jpg" height="450" width="750">
  
-![image](https://user-images.githubusercontent.com/112887372/203227922-71c498f6-1960-4bdf-9a18-3e245f169124.png)
+7. player fail interface
  
-7. If no line is formed, the match is marked as a tie.
- 
-![image](https://user-images.githubusercontent.com/112887372/203228128-f836f6a1-912d-4fc4-9f5d-915e67280676.png)
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/sextos.jpg" height="450" width="750">
+
+8. enemy hits the target
+
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/septimos.jpg" height="450" width="750">
+
+9. sunken ship interface
+
+<img src="https://github.com/UP210923/UP210923_CPP/blob/main/imagenes/octos.jpg" height="450" width="750">
+
 
 [Menu](#Menu) 
 <h2>Bonus_and_Problems</h2>
